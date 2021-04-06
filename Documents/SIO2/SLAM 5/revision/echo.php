@@ -13,7 +13,15 @@
 
  // On met la chaine de caractères "hello" dans la variable 'texte'
  // Les noms de variable commencent par $ en PHP
-$coordonnees= array(
+$texte= "hello world !";
+//On ecrit le contenur de la variable 'texte' dans la page web
+echo $texte;
+?>
+
+
+
+<?php
+ $coordonnees= array(
 'prenom' => 'François',
 'nom' => 'Dupont' );
 
