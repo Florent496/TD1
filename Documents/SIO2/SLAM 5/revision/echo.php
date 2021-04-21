@@ -19,6 +19,20 @@ echo $texte;
 ?>
 
 
+<?php
+//Les chaine de caractères
+$prenom = "Florent";
+echo "Bonjour $prenom, \n ça farte ?";
+//
+// Autre exemple
+echo 'Bonjour $prenom, \n ça farte ?';
+?>
+
+<?php
+// Concaténation
+$texte = "hello" . 'World !';
+?>
+
 
 <?php
  $coordonnees= array(
