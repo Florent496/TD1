@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon premier php</title>
 </head>
+
 <body>
+
  <?php
+ // 2) première page php
  //Ceci est un commentaire PHP sur une ligne
  /* Ceci est le 2ème type de commentaire PHP sur plusieurs lignes*/
 
@@ -33,6 +36,20 @@ echo 'Bonjour $prenom, \n ça farte ?';
 $texte = "hello" . 'World !';
 ?>
 
+<?php
+//3) echo 'here' document 
+$prenom = "Florent";
+echo <<< EOT
+Texte à afficher sur plusieurs lignes avec caractères spéciaux \t \n
+et remplacement de variables $prenom
+les caractères suivants passent : " ' $ / \;
+EOT;
+
+?>
+
+<?php
+// 4) affichage pour le débogage
+?>
 
 <?php
  $coordonnees= array(
