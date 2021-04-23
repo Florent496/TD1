@@ -49,7 +49,14 @@ EOT;
 
 <?php
 // 4) affichage pour le débogage
+//print_r() et var_dump
 ?>
+
+<?php
+// Tableau assiociatif
+$mon_tableau = array();
+?>
+
 
 <?php
  $coordonnees= array(
