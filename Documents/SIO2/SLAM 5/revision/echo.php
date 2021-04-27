@@ -16,35 +16,34 @@
 
  // On met la chaine de caractères "hello" dans la variable 'texte'
  // Les noms de variable commencent par $ en PHP
-$texte= "hello world !";
+//$texte= "hello world !";
 //On ecrit le contenur de la variable 'texte' dans la page web
-echo $texte;
+//echo $texte;
 ?>
 
 
 <?php
 //Les chaine de caractères
-$prenom = "Florent";
-echo "Bonjour $prenom, \n ça farte ?";
+//$prenom = "Florent";
+//echo "Bonjour $prenom, \n ça farte ?";
 //
 // Autre exemple
-echo 'Bonjour $prenom, \n ça farte ?';
+//echo 'Bonjour $prenom, \n ça farte ?';
 ?>
 
 <?php
 // Concaténation
-$texte = "hello" . 'World !';
+//$texte = "hello" . 'World !';
 ?>
 
 <?php
 //3) echo 'here' document 
-$prenom = "Florent";
-echo <<< EOT
-Texte à afficher sur plusieurs lignes avec caractères spéciaux \t \n
-et remplacement de variables $prenom
-les caractères suivants passent : " ' $ / \;
-EOT;
-
+//$prenom = "Florent";
+//echo <<< EOT
+//Texte à afficher sur plusieurs lignes avec caractères spéciaux \t \n
+//et remplacement de variables $prenom
+//les caractères suivants passent : " ' $ / \;
+//EOT;
 ?>
 
 <?php
@@ -52,18 +51,27 @@ EOT;
 //print_r() et var_dump
 ?>
 
-<?php
-// Tableau assiociatif
-$mon_tableau = array();
-?>
-
 
 <?php
- $coordonnees= array(
-'prenom' => 'François',
-'nom' => 'Dupont' );
+// Tableaux associatifs
+ $mon_tableau= array();
+//$coordonnees['prenom'] = 'François';
+//$coordonnees['nom'] = 'Dupont';
+//echo $coordonnees['prenom'];
+//echo $coordonnees['nom'];
 
-echo $coordonnees['prenom'];
- ?>   
+//$coordonnees = array (
+    //'prenom' => 'François',
+    //'nom' => 'Dupont' );
+// "a la fin" du tableau
+ //$mon_tableau [] = "Nouvelle valeur";
+ 
+
+//Boucle foreach
+foreach ($mon_tableau as $cle => $valeur){
+    //commandes
+}
+
+?>  
 </body>
 </html>
